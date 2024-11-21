@@ -1,0 +1,36 @@
+@use 'colors';
+
+.header {
+  padding: 8px 64px;
+
+  &__container {
+    padding: 8px 36px;
+    display: flex;
+    justify-content: space-between;
+    color: colors.$primaryTextColor;
+
+    @media (max-width: 768px) {
+      display: block;
+      padding: 0;
+    }
+  }
+
+  &__links {
+    display: flex;
+    text-transform: uppercase;
+
+    @media (max-width: 768px) {
+      justify-content: space-between;
+    }
+
+
+    &__item {
+      margin: 5px;
+      align-items: center;
+
+      @media (max-width: 768px) {
+        margin: 5px 0;
+      }
+    }
+  }
+}

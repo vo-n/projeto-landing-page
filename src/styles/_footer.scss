@@ -1,0 +1,7 @@
+@use 'colors'; 
+
+.footer {
+  padding: 26px 8px;
+  text-align: center;
+  color: colors.$primaryTextColor;
+}

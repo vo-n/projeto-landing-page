@@ -1,11 +1,120 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Landing Page</title>
+  <link rel="stylesheet" href="./dist/css/main.css">
 </head>
+
 <body>
+  <header class="header">
+    <div class="header__container">
+      <h1>Ingmar Bergman</h1>
+      <ul class="header__links">
+        <li class="header__links__item">
+          <a href="#about">Sobre o diretor</a>
+        </li>
+        <li class="header__links__item">
+          <a href="#movies">Filmes</a>
+        </li>
+      </ul>
+    </div>
+    <section class="hero">
+      <div class="hero__content">
+        <div class="hero__quote">
+          <span>
+            <i>“Film as dream, film as music. No art passes our conscience in the way film does, and goes directly to our
+              feelings, deep down into the dark rooms of our souls.”</i>
+            ― Ingmar Bergman
+          </span>
+        </div>
+      </div>
+    </section>
+    <section class="about" id="about">
+      <h2 class="section-title">Sobre o diretor</h2>
+
+    </section>
+    <section class="movies" id="movies">
+      <h2 class="section-title">Filmes</h2>
+      <nav class="movies__tabs">
+        <button data-tab-button="fifties" class="movies__tabs__button movies__tabs__button--is-active">
+          Anos 50
+        </button>
+        <button data-tab-button="sixties" class="movies__tabs__button">
+          Anos 60
+        </button>
+        <button data-tab-button="seventies" class="movies__tabs__button">
+          Anos 70
+        </button>
+      </nav>
+      <ul data-tab-id="fifties" class="movies__list movies__list--is-active">
+        <li class="movies__list__item">
+          <img src="https://via.placeholder.com/300x300" alt="">
+        </li>
+        <li class="movies__list__item">
+          <img src="https://via.placeholder.com/300x300" alt="">
+        </li>
+        <li class="movies__list__item">
+          <img src="https://via.placeholder.com/300x300" alt="">
+        </li>
+        <li class="movies__list__item">
+          <img src="https://via.placeholder.com/300x300" alt="">
+        </li>
+        <li class="movies__list__item">
+          <img src="https://via.placeholder.com/300x300" alt="">
+        </li>
+        <li class="movies__list__item">
+          <img src="https://via.placeholder.com/300x300" alt="">
+        </li>
+      </ul>
+      <ul data-tab-id="sixties" class="movies__list">
+        <li class="movies__list__item">
+          <img src="https://via.placeholder.com/300x300" alt="">
+        </li>
+        <li class="movies__list__item">
+          <img src="https://via.placeholder.com/300x300" alt="">
+        </li>
+        <li class="movies__list__item">
+          <img src="https://via.placeholder.com/300x300" alt="">
+        </li>
+        <li class="movies__list__item">
+          <img src="https://via.placeholder.com/300x300" alt="">
+        </li>
+        <li class="movies__list__item">
+          <img src="https://via.placeholder.com/300x300" alt="">
+        </li>
+        <li class="movies__list__item">
+          <img src="https://via.placeholder.com/300x300" alt="">
+        </li>
+      </ul>
+      <ul data-tab-id="seventies" class="movies__list">
+        <li class="movies__list__item">
+          <img src="https://via.placeholder.com/300x300" alt="">
+        </li>
+        <li class="movies__list__item">
+          <img src="https://via.placeholder.com/300x300" alt="">
+        </li>
+        <li class="movies__list__item">
+          <img src="https://via.placeholder.com/300x300" alt="">
+        </li>
+        <li class="movies__list__item">
+          <img src="https://via.placeholder.com/300x300" alt="">
+        </li>
+        <li class="movies__list__item">
+          <img src="https://via.placeholder.com/300x300" alt="">
+        </li>
+        <li class="movies__list__item">
+          <img src="https://via.placeholder.com/300x300" alt="">
+        </li>
+      </ul>
+    </section>
+  </header>
+  <footer class="footer">
+    Desenvolvido por Von
+  </footer>
   <script src="./dist/js/main.js"></script>
 </body>
+
 </html>
