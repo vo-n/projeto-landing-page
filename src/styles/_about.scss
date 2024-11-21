@@ -1,0 +1,35 @@
+.about {
+  padding: 0 5.6vw;
+
+  &__content {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba($color: #000000, $alpha: 0.2);
+
+    @media (max-width: 768px) {
+      display: block;
+    }
+    
+    img {
+      max-width: 480px;
+
+      @media (max-width: 768px) {
+        width: 320px;
+        padding: 0 32px 16px 32px;
+      }
+    }
+
+    p {
+      flex-direction: column;
+      align-content: center;
+      padding: 0 24px;
+      font-size: 24px;
+
+      @media (max-width: 768px) {
+        padding: 0 32px 16px 32px;
+        font-size: 16px;
+      }
+    }
+  }
+}

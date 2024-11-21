@@ -1,13 +1,15 @@
 @use 'colors';
 
 .header {
-  padding: 8px 64px;
+  padding: 8px 32px;
+
 
   &__container {
     padding: 8px 36px;
     display: flex;
     justify-content: space-between;
     color: colors.$primaryTextColor;
+    text-align: center;
 
     @media (max-width: 768px) {
       display: block;
@@ -18,6 +20,8 @@
   &__links {
     display: flex;
     text-transform: uppercase;
+    padding: 0;
+    margin-top: 8px;
 
     @media (max-width: 768px) {
       justify-content: space-between;

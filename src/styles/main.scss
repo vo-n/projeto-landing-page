@@ -1,7 +1,8 @@
 @use 'colors';
 @use 'hero';
+@use 'about';
 @use 'header';
-@use 'movies';
+@use 'filmography';
 @use 'footer';
 
 * {
@@ -29,6 +30,6 @@ h1, h2 {
 
 .section-title {
   text-align: center;
-  padding: 16px 0;
+  padding: 32px 0;
   text-transform: uppercase;
 }
